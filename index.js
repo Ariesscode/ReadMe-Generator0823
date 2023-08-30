@@ -54,13 +54,13 @@ inquirer
     {
         type: 'input',
         name: 'contents',
-        message: 'Enter table of contents, if any.Standard table of contents given.',
+        message: 'Enter table of contents (optional).Standard table of contents given.',
         default: ""
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+        message: 'What are the steps required to install your project? Provide a step-by-step details.',
         default: ""
 
     },
@@ -78,7 +78,7 @@ inquirer
     {
         type: 'input',
         name: 'credits',
-        message: 'List your collaborators, if any.',
+        message: 'List your collaborators.(optional)',
         default: ""
     },
     {
@@ -104,7 +104,7 @@ inquirer
     {
         type: 'input',
         name: 'tests',
-        message: 'Enter tests guidelines, if any. Provide how to run them here.',
+        message: 'Enter tests guidelines (dependencies needed), if any. Provide how to run them here.',
         default: ""
     }
   ]).then((answers) => {
