@@ -1,10 +1,10 @@
-
+# 09 Node.js Challenge: README-Generator
 
   ## GitHub Project Link
-  https://github.com/undefined/fjf
+  https://github.com/ariesscode/README-Generator
 
   ## Description
-free
+Provide a way for user to generate a readme file based on user prompts, which gather their inputs and write it to the file.
 
 
 
@@ -21,39 +21,38 @@ free
 
 
 ## Installation
-nfffek
+NPM Install required
 
 
 ## Usage
-fjff
+User will start the program by typing node index.js
 
 
 ## Credits
-fnfkne
+
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
     
 
 Visit this link, for more info: [https://choosealicense.com/](https://choosealicense.com/).
 
 
-
 ## Features
 
-
+none
 
 ## How to Contribute
-
+Bootcamp coding 
 
 ## Tests
-
+inqurer and file service used 
 
 ## Contact Developer
 You can email me at:
-flmldv@yahoo.com
+abigailtop95@yahoo.com
 Visit my GitHub account:
-https://github.com/undefined
+https://github.com/ariesscode
 
 

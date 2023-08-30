@@ -107,8 +107,9 @@ inquirer
         message: 'Enter tests guidelines (dependencies needed), if any. Provide how to run them here.',
         default: ""
     }
-  ]).then((answers) => {
-    console.log("Success..Finalizing..")
+  ]).then((answers) => { setTimeout(() => {
+    console.log("Success..Check it out!.");
+  }, 5000);
     const readMeContent = generateMarkdown(answers);
     writeToFile('README.md', readMeContent);
 })
@@ -118,7 +119,7 @@ inquirer
 function writeToFile (filename,data) {
     try {
         fs.writeFileSync(filename,data);
-        console.log(`${filename} was generated successfully!`);
+        console.log(`${filename} is..Finalizing..`);
     } catch (error) {
         console.error('An error occurred:', error);
     }
