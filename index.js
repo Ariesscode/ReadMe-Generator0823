@@ -3,15 +3,48 @@ inquirer
   .prompt([
     {
         type: 'input',
+        name: 'github',
+        message: 'What is your GitHub Username?',
+        validate: (answer) => {
+            if(answer === "") {
+                return 'Please enter a valid GitHub Username.'
+            }
+            return true
+        }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address.',
+        validate: (answer) => {
+            if(answer === "") {
+                return 'Enter a valid email address.'
+            }
+            return true
+        }
+    },
+    {
+        type: 'input',
         name: 'title',
         message: 'Enter the title of the project.',
-        default: ""
+        validate: (answer) => {
+            if(answer === ""){
+                return 'please enter a title, to move to the next prompt.'
+            }
+            return true
+        }
+            
     },
     {
         type: 'input',
         name: 'description',
         message: 'Provide a short description explaining the what, why, and how of your project.',
-        default: ""
+        validate: (answer) => {
+            if(answer === "") {
+                return 'A complete README requires a description of the project!'
+            }
+            return true
+        }
 
     },
     {
@@ -31,7 +64,12 @@ inquirer
         type: 'input',
         name: 'usage',
         message: 'Provide instructions and examples on how to use this app.',
-        default: ""
+        validate: (answer) => {
+            if(answer === "") {
+                return 'A user may need further guidance on how to use the app. Enter valid instructions to make your app more accessible. Stress Free is Key!'
+            }
+            return true
+        }
     },
     {
         type: 'input',
