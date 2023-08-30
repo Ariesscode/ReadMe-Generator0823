@@ -40,10 +40,10 @@ function renderLicense(license) {
 function generateMarkdown(data) {
   return `# 09 Node.js Challenge: ${data.title}
 
-  ## GitHub Project Link
+## GitHub Project Link
   https://github.com/${data.github}/${data.title}
 
-  ## Description
+## Description
 ${data.description}
 
 
