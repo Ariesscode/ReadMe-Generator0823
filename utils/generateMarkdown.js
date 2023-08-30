@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+
 function renderLicense(license) {
   if(license === 'MIT') {
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -36,7 +35,7 @@ function renderLicense(license) {
 }
 
 
-// TODO: Create a function to generate markdown for README
+
 function generateMarkdown(data) {
   return `# 09 Node.js Challenge: ${data.title}
 
@@ -89,8 +88,11 @@ ${data.tests}
 
 ## Contact Developer
 You can email me at:
+
 ${data.email}
+
 Visit my GitHub account:
+
 https://github.com/${data.github}
 
 

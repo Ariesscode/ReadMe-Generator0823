@@ -107,7 +107,7 @@ inquirer
         message: 'Enter tests guidelines (dependencies needed), if any. Provide how to run them here.',
         default: ""
     }
-  ]).then((answers) => { setTimeout(() => {
+  ]).then((answers) => { setTimeout(() => { 
     console.log("Success..Check it out!.");
   }, 5000);
     const readMeContent = generateMarkdown(answers);
