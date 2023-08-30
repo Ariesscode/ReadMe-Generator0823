@@ -1,4 +1,8 @@
+const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
+
+function init() {
 inquirer
   .prompt([
     {
@@ -81,7 +85,7 @@ inquirer
         type: 'list',
         name: 'license',
         message: 'Please choose a license for this app.',
-        choices: ['MIT','BSD','Boost','The_unlicense','Mozilla','Apache','GNU_GPLv3'],
+        choices: ['MIT','BSD 3-Clause License','Boost Software License 1.0','The_unlicense','Mozilla Public License 2.0','Apache 2.0 License','GNU_GPLv3'],
         default: ""
     },
     {
@@ -103,16 +107,21 @@ inquirer
         message: 'Enter tests guidelines, if any. Provide how to run them here.',
         default: ""
     }
-  ])
-  
+  ]).then((answers) => {
+    console.log("Success..Finalizing..")
+    const readMeContent = generateMarkdown(answers);
+    writeToFile(README.md, readMeContent);
+}).catch((err) => console.log(err));
+}
+
+function writeToFile (filename,data) {
+    try {
+        fs.writeFileSync(filename,data);
+        console.log(`${filename} was generated successfully!`);
+    } catch (error) {
+        console.error('An error occurred:', error);
+    }
+}
 
 
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
 init();
