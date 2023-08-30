@@ -110,8 +110,9 @@ inquirer
   ]).then((answers) => {
     console.log("Success..Finalizing..")
     const readMeContent = generateMarkdown(answers);
-    writeToFile(README.md, readMeContent);
-}).catch((err) => console.log(err));
+    writeToFile('README.md', readMeContent);
+})
+.catch((err) => console.log(err));
 }
 
 function writeToFile (filename,data) {

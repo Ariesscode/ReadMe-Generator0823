@@ -38,10 +38,10 @@ function renderLicense(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# 09 Node.js Challenge: ${data.title}
 
   ## GitHub Project Link
-  https://github.com/${data.username}/${data.title}
+  https://github.com/${data.github}/${data.title}
 
   ## Description
 ${data.description}
@@ -77,7 +77,6 @@ ${renderLicense(data.license)}
 Visit this link, for more info: [https://choosealicense.com/](https://choosealicense.com/).
 
 
-
 ## Features
 
 ${data.features}
@@ -92,7 +91,7 @@ ${data.tests}
 You can email me at:
 ${data.email}
 Visit my GitHub account:
-https://github.com/${data.username}
+https://github.com/${data.github}
 
 
 `;
