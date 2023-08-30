@@ -54,7 +54,7 @@ inquirer
     {
         type: 'input',
         name: 'contents',
-        message: 'Enter table of contents, if any.',
+        message: 'Enter table of contents, if any.Standard table of contents given.',
         default: ""
     },
     {

@@ -1,6 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
+function renderLicense(license) {
   if(license === 'MIT') {
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -39,6 +39,61 @@ function renderLicenseBadge(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
+  ## GitHub Project Link
+  https://github.com/${data.username}/${data.title}
+
+  ## Description
+${data.description}
+
+
+
+## Table of Contents 
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Features](#features)
+- [Contribution](#How to Contribute)
+- [Tests](#tests)
+- [Contact](#Contact Developer)
+
+
+## Installation
+${data.installation}
+
+
+## Usage
+${data.usage}
+
+
+## Credits
+${data.credits}
+
+## License
+${renderLicense(data.license)}
+
+Visit this link, for more info: [https://choosealicense.com/](https://choosealicense.com/).
+
+
+
+## Features
+
+${data.features}
+
+## How to Contribute
+${data.contribution}
+
+## Tests
+${data.tests}
+
+## Contact Developer
+You can email me at:
+${data.email}
+Visit my GitHub account:
+https://github.com/${data.username}
+
 
 `;
 }
