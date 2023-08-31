@@ -1,10 +1,10 @@
-# 09 Node.js Challenge: fnfmf
+# 09 Node.js Challenge: README-Generator0823
 
 ## GitHub Project Link
-  https://github.com/jkkff/fnfmf
+  https://github.com/ariesscode/README-Generator0823
 
 ## Description
-fjnfm
+This program lets the user create a readme file based on prompts, in which the users input will      
 
 
 
@@ -15,28 +15,28 @@ fjnfm
 - [Credits](#credits)
 - [License](#license)
 - [Features](#features)
-- [Contribution](#HowtoContribute)
+- [Contribution](#contribute)
 - [Tests](#tests)
-- [Contact](#ContactDeveloper)
+- [Contact](#contact)
 
 
 ## Installation
-
+The user needs to make sure npm is installed
 
 
 ## Usage
-f
+The user needs to type node index.js to start the program.
 
 
 ## Credits
 
 
 ## License
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-  Boost Software License 1.0:
+  Mozilla Public License 2.0:
 
-  [(https://opensource.org/license/bsl-1-0)]
+  [(https://opensource.org/license/mpl-2-0)]
 
     
 
@@ -45,19 +45,19 @@ Visit this link, for more info: [https://choosealicense.com/](https://choosealic
 
 ## Features
 
-fmkf
+This program icludes a set time out function to write to file of users inputs, to give a realistic feel.
 
-## How to Contribute
-fmfm
+## Contribute
+
 
 ## Tests
+inquirer and file service 
 
-
-## Contact Developer
+## Contact
 You can email me at:
-mfmff
+abigailtop95@yahoo.com
 
 Visit my GitHub account:
-https://github.com/jkkff
+https://github.com/ariesscode
 
 
