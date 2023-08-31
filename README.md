@@ -4,7 +4,7 @@
   https://github.com/ariesscode/README-Generator0823
 
 ## Description
-This program lets the user create a readme file based on prompts, in which the users input will      
+This program is using node.js. It allows users to create a README file based on prompts that take the users input to display in the readme file. Users have the capability to include important details that are required to achieve a successful and accessible README file. The user can pick from several licenses to include, which will also include the license badge and license link to direct the user to the license website for more information. User is prompted to include contact information and GitHub usernames to give the reader direct access to their account by just one click. 
 
 
 
@@ -21,11 +21,11 @@ This program lets the user create a readme file based on prompts, in which the u
 
 
 ## Installation
-The user needs to make sure npm is installed
+The user must have npm installed in their terminal. Check by using command: npm --v
 
 
 ## Usage
-The user needs to type node index.js to start the program.
+User will type node index.js into the command line to start the program. Then, user will follow prompted questions. Some questions require input in order to move on to the next prompt. This  makes sure thhat the user is buidling a succcessful  and accessible readme file. After user enters required fields, user must wait five seconds for a message that will display "success..Check it out!" The user will be able to see readme file inputs.
 
 
 ## Credits
@@ -45,13 +45,13 @@ Visit this link, for more info: [https://choosealicense.com/](https://choosealic
 
 ## Features
 
-This program icludes a set time out function to write to file of users inputs, to give a realistic feel.
+Set time out function to give a realistic feel for user. The write to file function is creating the readmefile, after 5 seconds, a message will display success!
 
 ## Contribute
 
 
 ## Tests
-inquirer and file service 
+Inquirer used for propmted questions to take user input and use the input to do many things with it. FS file service included to allow the movement of files or file GUI capabilities in  he command line  rogramally. 
 
 ## Contact
 You can email me at:
