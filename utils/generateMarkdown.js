@@ -82,9 +82,9 @@ ${data.description}
 - [Credits](#credits)
 - [License](#license)
 - [Features](#features)
-- [Contribution](#HowtoContribute)
+- [Contribution](#contribute)
 - [Tests](#tests)
-- [Contact](#ContactDeveloper)
+- [Contact](#contact)
 
 
 ## Installation
@@ -108,13 +108,13 @@ Visit this link, for more info: [https://choosealicense.com/](https://choosealic
 
 ${data.features}
 
-## How to Contribute
+## Contribute
 ${data.contribution}
 
 ## Tests
 ${data.tests}
 
-## Contact Developer
+## Contact
 You can email me at:
 ${data.email}
 
