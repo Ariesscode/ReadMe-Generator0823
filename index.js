@@ -108,7 +108,7 @@ inquirer
         default: ""
     }
   ]).then((answers) => { setTimeout(() => { 
-    console.log("Success..Check it out!.");
+    console.log("Success..Check it out!");
   }, 5000);
     const readMeContent = generateMarkdown(answers);
     writeToFile('README.md', readMeContent);
