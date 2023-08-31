@@ -25,18 +25,18 @@ The user must have npm installed in their terminal. Check by using command: npm 
 
 
 ## Usage
-![sample](Assets/images/screenshot.png)
+![sample](Assets/images/screenshot.png) User will type node index.js into the command line to start the program. Then, user will follow prompted questions. Some questions require input in order to move on to the next prompt. This makes sure thhat the user is buidling a succcessful and accessible readme file. After user enters required fields, user must wait five seconds for a message that will display "success..Check it out!" The user will be able to see readme file inputs.
 
 
 ## Credits
 
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-    
-  The MIT License: 
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-  [(https://opensource.org/licenses/MIT)]
+  Mozilla Public License 2.0:
+
+  [(https://opensource.org/license/mpl-2-0)]
 
     
 
@@ -45,13 +45,13 @@ Visit this link, for more info: [https://choosealicense.com/](https://choosealic
 
 ## Features
 
-
+Set time out function to give a realistic feel for user. The write to file function is creating the readmefile, after 5 seconds, a message will display success!
 
 ## Contribute
 
 
 ## Tests
-
+Inquirer used for propmted questions to take user input and use the input to do many things with it. FS file service included to allow the movement of files or file GUI capabilities in he command line rogramally.
 
 ## Contact
 You can email me at:
