@@ -67,7 +67,7 @@ inquirer
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions and examples on how to use this app.Add a screenshot: ![alt text](assets/images/screenshot.png)',
+        message: 'Provide instructions and examples on how to use this app.Add a screenshot: ![alt text](assets/images/nameoffile.png).',
         validate: (answer) => {
             if(answer === "") {
                 return 'A user may need further guidance on how to use the app. Enter valid instructions to make your app more accessible. Stress Free is Key!'
